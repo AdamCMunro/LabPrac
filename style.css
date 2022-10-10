@@ -1,0 +1,75 @@
+/*
+FFFFFA
+DD6E42
+000103
+4F6D7A
+668586
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+body{
+    background-color: #4F6D7A;
+    margin:auto;
+    width:max-content;
+}
+
+nav{
+    margin:auto;
+    width:max-content;
+}
+
+menu{
+    max-width: 750px;
+    background-color: #FFFFFA;
+}
+
+h1{
+    text-align: center;
+    font-family:
+}
+
+h2{
+    font-family: 'Alkalami', serif;
+    font-size: 30px;
+    color:#dddddd;
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuitem{
+display:block;
+}
+
+.navi{
+    display:inline;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+footer{
+background-color: #dddddd;
+width: 400px;
+text-align:center;
+font-family:arial;
+  }
+
+img{
+    margin:auto;
+    padding: 20px;
+    display:block;
+}
