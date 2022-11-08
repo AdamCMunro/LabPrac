@@ -1,0 +1,61 @@
+.box1{
+    background-color: black;
+    height: 100px;
+    margin: 5px;
+}
+
+.box2{
+    background-color: rgb(255, 83, 83);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box3{
+    background-color: rgb(248, 184, 66);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box4{
+    background-color: rgb(255, 255, 124);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box5{
+    background-color: rgb(208, 253, 139);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box6{
+    background-color: rgb(65, 133, 65);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box7{
+    background-color: rgb(0, 175, 175);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box8{
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
+
+.box9{
+    background-color: rgb(85, 85, 253);
+    padding: 5px;
+    margin: 5px;
+    height:80px;
+}
