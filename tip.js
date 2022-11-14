@@ -1,39 +1,32 @@
-document.getElementById('5p').addEventListener('click', FivePercent);
-document.getElementById('10p').addEventListener('click', TenPercent);
-document.getElementById('25p').addEventListener('click', TwentyFivePercent);
-document.getElementById('Big').addEventListener('click', Big);
-
-var defaultTip = document.getElementById('output');
-
-function FivePercent () {
-    let billValue = document.getElementById('bill').value;
+$('#5p').click(function(){
+    let billValue = $('#bill').val();
     var totalTip = billValue * 0.05;
-    defaultTip.innerHTML = "£" + totalTip;
-    
-}
+    $('#output').html("£" + totalTip);  
+});
 
-function TenPercent () {
-    let billValue = document.getElementById('bill').value;
+$('#10p').click(function(){
+    let billValue = $('#bill').val();
     var totalTip = billValue * 0.1;
-    defaultTip.innerHTML = "£" + totalTip;
-}
+    $('#output').html("£" + totalTip);
+});
 
-function TwentyFivePercent () {
-    let billValue = document.getElementById('bill').value;
+$('#25p').click(function(){
+    let billValue = $('#bill').val();
     var totalTip = billValue * 0.25;
-    defaultTip.innerHTML = "£" + totalTip;
-}
+    $('#output').html("£" + totalTip);
+});
 
-function Big () {
-    let billValue = document.getElementById('bill').value;
+$('#Big').click(function(){
+    let billValue = $('#bill').val();
 if ((billValue * 0.25) > (2 + billValue * 0.1)) {
     var totalTip = billValue * 0.25;
-    defaultTip.innerHTML = "£" + totalTip;
+    $('#output').html("£" + totalTip);
 }
 else {
     let totalTip = 2 + billValue * 0.1;
-    defaultTip.innerHTML = "£" + totalTip;
+    $('#output').html("£" + totalTip);
 }
-}
+});
+
 
 
