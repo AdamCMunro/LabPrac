@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+<div id="displayBox1"></div>
+<div id="displayBox2"></div>
+
+<script>
+  $( function() {
+       let jsonData = `[{
+            "genus": "Malus",
+            "name": "Apple",
+            "id": 6,
+            "family": "Rosaceae",
+            "order": "Rosales"  
+        }, {
+            "genus": "Prunus",
+            "name": "Apricot",
+            "id": 35,
+            "family": "Rosaceae",
+            "order": "Rosales"
+        }, {
+            "genus": "Persea",
+            "name": "Avocado",
+            "id": 84,
+            "family": "Lauraceae",
+            "order": "Laurales"
+        }]`
+
+      console.log(jsonData)
+      console.log(jsonData[0])
+      let parsedJSON = JSON.parse(jsonData);
+  console.log(parsedJSON);
+  console.log(parsedJSON[0]);
+  console.log(parsedJSON[0].name)
+
+  let infoList = "<ul>"
+
+    for(fruit in parsedJSON){
+  for (i in parsedJSON[fruit]) {
+      infoList += "<li>" + i + " : " + parsedJSON[fruit][i] + "</li>";
+    }
+}
+  infoList += "</ul>";
+  $("#displayBox2").html(infoList);
+
+
+  });
+  </script>
+</body>
+</html>
