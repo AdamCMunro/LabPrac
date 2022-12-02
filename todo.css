@@ -1,0 +1,38 @@
+.container{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    border-width: 15px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message{
+    background-color:white;
+    opacity:0.5;
+    margin-bottom: 20px;
+}
+
+.todo{
+    background-color:blueviolet;
+    opacity:0.5;
+    color: white;
+    filter: drop-shadow(10px 10px 4px #646464);
+}
+
+.todone{
+    background-color:green;
+    opacity:0.5;
+    color: white;
+    filter: drop-shadow(10px 10px 4px #646464);
+}
+
+.button{
+    background-color:black;
+    opacity: 0.4;
+    color: white;
+    height: 50px;
+}
